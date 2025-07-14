@@ -1,4 +1,5 @@
 import sqlite3
 
 def conectar():
-    return sqlite3.connect("appComercio.db")  # banco no mesmo diretório
+    caminho_do_banco = r"C:\Users\994155\Documents\GitHub\APP_SQLITE\SQLiteDatabaseBrowserPortable\appComercio.db"
+    return sqlite3.connect("caminho_do_banco")
